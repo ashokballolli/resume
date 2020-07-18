@@ -48,14 +48,32 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Automation Engineer with thorough hands on experience in all levels of software development life cycle. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
+      Experienced Data Engineer with thorough hands on experience in all levels of software development life cycle. I am a hybrid software developer, data engineer, automation engineer. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
 education:
     - degree: B.E in Computer Science
       university: VTU(PDA College Of Engineering, Gulbarga)
       time: 2005 - 2009
 experiences:
+    - role: Data Engineer
+      time: 2020 - Present
+      company: ONE Insurance, Berlin
+      details: |
+          - Migrated the VBA based ETL tool to Airflow.
+          - Built utilities in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3.
+          - Gather and process raw data at scale (including writing scripts, web scraping, calling APIs, writing SQL queries and applications)
+          - Built API’s using FastAPI.
+          - Setting up of CI/CD pipeline using Jenkins and Bash Scripts.
+          - On-boarding the new MGA's with the necessary changes in the DWH and ETL.
+          - Implemented real time alerting for the data pipeline and services.
+          - Developed the data dictionary.
+          - Effective documentation about the applications, tools and utilities developed.
+          - Understanding the Data Models (LDM and PDM) & architecture/design documents.
+          - Creating high level design documents & source to target data mapping sheets.
+          - Defining coding standards/best practices and guidelines.
+          - Following the best practices of different ETL tools and databases.
+          - Updating JIRA boards and development status.
     - role: Data Automation Engineer
-      time: 2017 - Present
+      time: 2017 - 2020
       company: Spotcap Global, Berlin
       details: |
           - Built data-pipeline in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, which was then consumed by the data science team.

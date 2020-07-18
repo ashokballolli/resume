@@ -1,0 +1,191 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ashok Ballolli
+    tagline: Data Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ballolliashok@gmail.com
+    phone: +49-15166269341
+    website: www.edaari.com #do not add http://
+    linkedin: ashokballolli
+    github: ashokballolli
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket: ashokballolli
+    twitter: '@ashok_ballolli'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+      - idiom: Kannada
+        level: Native
+
+    interests:
+      - item: Reading Books
+        link:
+
+      - item: Trekking
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Automation Engineer with thorough hands on experience in all levels of software development life cycle. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
+education:
+    - degree: B.E in Computer Science
+      university: VTU(PDA College Of Engineering, Gulbarga)
+      time: 2005 - 2009
+experiences:
+    - role: Data Automation Engineer
+      time: 2017 - Present
+      company: Spotcap Global, Berlin
+      details: |
+          - Built data-pipeline in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, which was then consumed by the data science team.
+          - Gather and process raw data at scale (including writing scripts, web scraping, calling APIs, write SQL queries, writing applications)
+          - Built automation framework for Spotcap's backend API's from scratch.
+          - Built API’s using Scala Play and Spring boot which acts as simulator for user journey and it’s actively used by the product, QA and data science team.
+          - Developed a utility by implementing API’s and integrating with the Flock for pro- actively debugging the credit decision on user’s loan application.
+          - Setting up of CI/CD pipeline (Jenkins integration) for the automation test suite.
+          - Setting up the mocked data, which was critical during client demos and internal testing, and acted as POC for the mocked data services.
+          - Built load testing framework using Locust and Python.
+          - Implemented real time alarming for the automation test failures to all the stake holders.
+          - Effective documentation about the applications, tools and utilities developed.
+          - Mentoring the junior automation engineers and data analysts.
+    - role: Software Development Engineer in Test - III
+      time: 2015 - 2017
+      company: OLA, Bangalore
+      details: |
+        - Setting up the performance environment, adding/modifying the performance script, performing the performance test and sharing the matrix/observations/results with the tech team and other stake holders.
+        - Co-ordinating with the developers and Dev-Ops during the production deployment, performing the post deployment QA verification and monitoring the applications using New relic, Kibana, Prometheus and application logs.
+        - Building utilities by implementing API's using spring-boot and writing shell scripts to minimize the QA-effort and making automation job easy.
+        - Updating the Chef Cookbooks and Recipes and deploying the build on AWS-Cloud Environment.
+        - Performing the code review of the automated test scripts.
+        - Monitoring the daily run report of the automation suite and debugging if any failures in the report.
+        - Developed many utilities to minimize the environment setup, for production sanity test and for debugging the issues in staging.
+        - Application Maintenance and troubleshooting
+        - Participating in the Sprint planning meetings and providing the QA estimation.
+        - Automating the 'S0' test cases before the Dev-build to staging.
+        - Perform functional testing, integration testing, system testing, regression testing.
+        - Giving demos to the product team and Knowledge sharing sessions to the team.
+        - Create and maintain media wiki page for the project with the latest updates.
+    - role: Senior Software Engineer
+      time: 2012 - 2015
+      company: Altisource Labs, Bangalore
+      details: |
+        - Set up test environment, test case design, perform peer reviews, test case walk through with the product team and other stake holders
+        - Deploying the build on Cloud Environment using Chef Cookbooks and Recipes
+        - Perform integration testing, system testing, regression testing
+        - Monitoring and scheduling Daemons
+        - Automation of test cases using Selenium Web driver, Sahi, Robot Framework and Shell script
+        - Setup Jasper Reports server
+        - DB Testing – Executing liquibase scripts, writing queries, Stored Procedures, debugging the stored procedures
+        - Writing Shell script to automate payment files, Monitoring logs, Deployment, Server health monitoring
+        - Create and maintain media wiki page for the project with the latest updates
+    - role: Software Test Engineer
+      time: 2009 - 2012
+      company: ZTE R&D Center, Bangalore
+      details: |
+        - Preparing the system test cases, Test List and System Test Report
+        - Preparation of test environment and deployment
+        - Integration of all the third-party interfaces with RBT
+        - Execution of IOT test cases and resolving the inter communication issues with 3rd party modules
+        - Implementation and maintenance of matrices such as Test Matrix and Requirement Tractability Matrix
+        - Executing Sanity/Smoke test on new builds
+        - Preparing test reports for the system test performed
+        - Study the failures and checking server logs and Wireshark logs
+        - Installation of Linux, Database, tomcat, Jboss
+        - Preparing Test bed
+        - Upgrade/Migration testing
+        - Execution of UAT test cases
+        - Preparation of dual site environment for GR test and execution of test cases and preparation of document for GR to use at disaster condition.
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

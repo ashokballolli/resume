@@ -1,0 +1,27 @@
+{% assign skills = site.data.data.skills %}
+{% if skills %}
+<section class="skills-section section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ skills.title }}
+  </h2>
+
+  {% for toolset in skills.toolsets %}
+  <div class="item">
+<!--    {% if toolset.link %}-->
+<!--    <li><a href="">{{ toolset.title }}</a></li>-->
+<!--    {% else %}-->
+<!--    <li>{{ toolset.title }}</li>-->
+<!--    {% endif %}-->
+
+    <div><li class="skill-heading">{{ toolset.title }}</li></div>
+    <div class="publication-conference">{{ toolset.details }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

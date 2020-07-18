@@ -12,7 +12,8 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: ballolliashok@gmail.com
+    # email: ballolliashok@gmail.com
+    email: ashokb@engineer.com
     phone: +49-15166269341
     website: www.edaari.com #do not add http://
     linkedin: ashokballolli
@@ -187,13 +188,13 @@ skills:
     title: Skills
 
     toolsets:
-      - title: Languages and Frameworks
+      - title: Languages & Frameworks
         link: "#"
-        details: Java, Scala, Python, Play 2, SQL, Spring- boot, TestNG, ScalaTest, Shell script
+        details: Python, Scala, Java, SQL, Fast API, Play 2, Spring- boot, TestNG, ScalaTest, Shell/Bash script
 
-      - title: Automation Tools
+      - title: ETL & Data-Pipeline Tools
         link: "#"
-        details: Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
+        details: Airflow, DBT, Spark+Scala
 
       - title: Databases
         link: "#"
@@ -201,15 +202,19 @@ skills:
 
       - title: Technologies & Tools
         link: "#"
-        details: Kafka, Elasticsearch, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark, Docker
+        details: Kafka, Elasticsearch, Docker, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark
 
+      - title: Automation Tools
+        link: "#"
+        details: Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
+        
       - title: Platforms
         link: "#"
-        details: AWS cloud, Verizon cloud, Linux (SUSE, Cent OS, Ubuntu), Windows, Mac
+        details: AWS cloud, GCP, Linux (SUSE, Cent OS, Ubuntu), Mac OSX, Windows
 
       - title: Cloud Services
         link: "#"
-        details: AWS EC2, S3, Redshift, AWS RDS, OpsWorks, Elasticsearch service, Amazon Lex, GCP Firestore, GCP VM Instance
+        details: AWS EC2, S3, Redshift, AWS RDS, OpsWorks, Elasticsearch service, Amazon Lex, GCP Firestore, GCP VM Instance, cloud scheduler, cloud pub/sub, cloud functions
 
       - title: Version Management Tools & PMS
         link: "#"

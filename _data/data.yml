@@ -60,7 +60,7 @@ experiences:
       company: ONE Insurance, Berlin
       details: |
           - Migrated the VBA based ETL tool to Airflow.
-          - Built utilities in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3.
+          - Built utilities in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, CSV.
           - Gather and process raw data at scale (including writing scripts, web scraping, calling APIs, writing SQL queries and applications)
           - Built API’s using FastAPI.
           - Setting up of CI/CD pipeline using Jenkins and Bash Scripts.
@@ -72,7 +72,7 @@ experiences:
           - Creating high level design documents & source to target data mapping sheets.
           - Defining coding standards/best practices and guidelines.
           - Following the best practices of different ETL tools and databases.
-          - Updating JIRA boards and development status.
+          - Updating JIRA boards.
     - role: Data Automation Engineer
       time: 2017 - 2020
       company: Spotcap Global, Berlin

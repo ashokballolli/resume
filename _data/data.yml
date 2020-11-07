@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Ashok Ballolli
-    tagline: Data Engineer
+    tagline: Senior Data Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -55,26 +55,28 @@ education:
       university: VTU(PDA College Of Engineering, Gulbarga)
       time: 2005 - 2009
 experiences:
-    - role: Data Engineer
-      time: 2020 - Present
-      company: ONE Insurance, Berlin
+    - role: Senior Data Engineer
+      time: 04/2020 - Present
+      company: wefox Group (wefox & ONE), Berlin
       details: |
           - Migrated the VBA based ETL tool to Airflow.
-          - Built utilities in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, CSV.
+          - Extract and Load setup using Xplenty.
+          - Data migration and CDC using AWS DMS.
+          - Built utilities in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, S3, CSV, SFTP.
           - Gather and process raw data at scale (including writing scripts, web scraping, calling APIs, writing SQL queries and applications)
           - Built API’s using FastAPI.
-          - Setting up of CI/CD pipeline using Jenkins and Bash Scripts.
+          - Setting up of CI/CD pipeline using Github actions and Bash Scripts.
           - On-boarding the new MGA's with the necessary changes in the DWH and ETL.
           - Implemented real time alerting for the data pipeline and services.
           - Developed the data dictionary.
           - Effective documentation about the applications, tools and utilities developed.
-          - Understanding the Data Models (LDM and PDM) & architecture/design documents.
           - Creating high level design documents & source to target data mapping sheets.
+          - POC on different ETL tools and technologies.
           - Defining coding standards/best practices and guidelines.
           - Following the best practices of different ETL tools and databases.
           - Updating JIRA boards.
     - role: Data Automation Engineer
-      time: 2017 - 2020
+      time: 11/2017 - 03/2020
       company: Spotcap Global, Berlin
       details: |
           - Built data-pipeline in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, which was then consumed by the data science team.
@@ -89,7 +91,7 @@ experiences:
           - Effective documentation about the applications, tools and utilities developed.
           - Mentoring the junior automation engineers and data analysts.
     - role: Software Development Engineer in Test - III
-      time: 2015 - 2017
+      time: 09/2015 - 11/2017
       company: OLA, Bangalore
       details: |
         - Setting up the performance environment, adding/modifying the performance script, performing the performance test and sharing the matrix/observations/results with the tech team and other stake holders.
@@ -106,34 +108,43 @@ experiences:
         - Giving demos to the product team and Knowledge sharing sessions to the team.
         - Create and maintain media wiki page for the project with the latest updates.
     - role: Senior Software Engineer
-      time: 2012 - 2015
+      time: 11/2012 - 09/2015
       company: Altisource Labs, Bangalore
       details: |
-        - Set up test environment, test case design, perform peer reviews, test case walk through with the product team and other stake holders
-        - Deploying the build on Cloud Environment using Chef Cookbooks and Recipes
-        - Perform integration testing, system testing, regression testing
-        - Monitoring and scheduling Daemons
-        - Automation of test cases using Selenium Web driver, Sahi, Robot Framework and Shell script
+        - Migration of existing code bases to AWS cloud.
+        - Migration of SQL based searches to Apache SOLR based search.
+        - Built a highly scalable and concurrent design by using multithreading principles and Rabbit MQ.
+        - Implemented build and deployment process for the product using maven, jenkins etc.
+        - Involved in the development of in house frame work and reusable components
+        - Interacted with the business team to understand and analyze the requirements.
+        - Designed the Creating Invoice, Creating Workflows Invoice Approval modules.
+        - Worked on data integration, payment file generation and interfacing with 3rd party.
+        - Worked with Support to resolve the production issues across the application.
+        - Optimizing code for increased scalability.
+        - Perform integration testing, system testing, regression testing.
+        - Monitoring and scheduling Daemons.
+        - Automation of test cases using Selenium Web driver, Sahi, Robot Framework and Shell script.
         - Setup Jasper Reports server
-        - DB Testing – Executing liquibase scripts, writing queries, Stored Procedures, debugging the stored procedures
-        - Writing Shell script to automate payment files, Monitoring logs, Deployment, Server health monitoring
-        - Create and maintain media wiki page for the project with the latest updates
+        - DB Testing – Executing liquibase scripts, Writing queries, Stored Procedures, debugging the stored procedures.
+        - UNIX: Writing Shell script to automate payment files, Monitoring logs, Deployment, Server health monitoring.
+        - Give Demos, Knowledge transfer to the team.
+        - Create and maintain media wiki page for the project with the latest updates.
     - role: Software Test Engineer
-      time: 2009 - 2012
+      time: 09/2009 - 10/2012
       company: ZTE R&D Center, Bangalore
       details: |
-        - Preparing the system test cases, Test List and System Test Report
-        - Preparation of test environment and deployment
-        - Integration of all the third-party interfaces with RBT
-        - Execution of IOT test cases and resolving the inter communication issues with 3rd party modules
-        - Implementation and maintenance of matrices such as Test Matrix and Requirement Tractability Matrix
-        - Executing Sanity/Smoke test on new builds
-        - Preparing test reports for the system test performed
-        - Study the failures and checking server logs and Wireshark logs
-        - Installation of Linux, Database, tomcat, Jboss
-        - Preparing Test bed
-        - Upgrade/Migration testing
-        - Execution of UAT test cases
+        - Preparing the system test cases, Test List and System Test Report.
+        - Preparation of test environment and deployment.
+        - Integration of all the third-party interfaces with RBT.
+        - Execution of IOT test cases and resolving the inter communication issues with 3rd party modules.
+        - Implementation and maintenance of matrices such as Test Matrix and Requirement Tractability Matrix.
+        - Executing Sanity/Smoke test on new builds.
+        - Preparing test reports for the system test performed.
+        - Study the failures and checking server logs and Wireshark logs.
+        - Installation of Linux, Database, tomcat, Jboss.
+        - Preparing Test bed.
+        - Upgrade/Migration testing.
+        - Execution of UAT test cases.
         - Preparation of dual site environment for GR test and execution of test cases and preparation of document for GR to use at disaster condition.
 projects:
     title: Projects
@@ -192,21 +203,17 @@ skills:
         link: "#"
         details: Python, Scala, Java, SQL, Fast API, Play 2, Spring- boot, TestNG, ScalaTest, Shell/Bash script
 
-      - title: ETL & Data-Pipeline Tools
+      - title: ELT & Data-Pipeline Tools
         link: "#"
-        details: Airflow, DBT, Spark+Scala
+        details: Airflow, DBT, Xplenty, AWS DMS, Spark(poc/theoretical exp)
 
       - title: Databases
         link: "#"
-        details: Oracle, MySQL, Elasticsearch, PostgreSQL, MongoDB, Redis, Memcache, RocksDB
+        details: PostgreSQL, Oracle, MySQL, Elasticsearch, MongoDB, Redis, Memcache, RocksDB
 
       - title: Technologies & Tools
         link: "#"
-        details: Kafka, Elasticsearch, Docker, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark
-
-      - title: Automation Tools
-        link: "#"
-        details: Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
+        details: Terraform, Kafka, Elasticsearch, Docker, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark
         
       - title: Platforms
         link: "#"
@@ -214,15 +221,22 @@ skills:
 
       - title: Cloud Services
         link: "#"
-        details: AWS EC2, S3, Redshift, AWS RDS, OpsWorks, Elasticsearch service, Amazon Lex, GCP Firestore, GCP VM Instance, cloud scheduler, cloud pub/sub, cloud functions
+        details: AWS (EC2, S3, Lambda, DMS, API Gateway, Redshift, RDS, CloudWatch, DocumentDB), GCP (Firestore, VM Instance, cloud scheduler, cloud pub/sub, cloud functions)
 
-      - title: Version Management Tools & PMS
+      - title: Reporting Tools
         link: "#"
-        details: Git, JIRA
+        details: PowerBI and Redash (Beginner to intermediate level of exp)
+
+      - title: Automation Tools
+        link: "#"
+        details: Terraform, Github Actions, Jenkins, Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
 
       - title: Load Testing Tools
         link: "#"
         details: Locust and Wrk2
 
+      - title: Version Management Tools & PMS
+        link: "#"
+        details: Git, JIRA
 footer: >
 

@@ -58,6 +58,10 @@ experiences:
     - role: Senior Data Engineer
       time: 05/2021 - Present
       company: Wayfair Deutschland Ltd. & Co. KG, Berlin
+      details: |
+          - Implemented real time data processing pipeline using Google Dataflow(Apache Beam).
+          - Implemented event driven architecture to process the Google Analytics data.
+          - Developed data dictionary using Google Data Catalog.
     - role: Senior Data Engineer
       time: 04/2020 - 04/2021
       company: wefox Group (wefox & ONE), Berlin

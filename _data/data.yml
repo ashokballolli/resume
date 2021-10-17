@@ -56,7 +56,10 @@ education:
       time: 2005 - 2009
 experiences:
     - role: Senior Data Engineer
-      time: 04/2020 - Present
+      time: 05/2021 - Present
+      company: Wayfair Deutschland Ltd. & Co. KG, Berlin
+    - role: Senior Data Engineer
+      time: 04/2020 - 04/2021
       company: wefox Group (wefox & ONE), Berlin
       details: |
           - Migrated the VBA based ETL tool to Airflow.

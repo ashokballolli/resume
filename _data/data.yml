@@ -15,7 +15,7 @@ sidebar:
     # email: ballolliashok@gmail.com
     email: ashokb@engineer.com
     phone: +49-15166269341
-    website: www.edaari.com #do not add http://
+    website: www.column.name #do not add http://
     linkedin: ashokballolli
     github: ashokballolli
     telegram: # add your nickname without '@' sign
@@ -56,16 +56,11 @@ education:
       time: 2005 - 2009
 experiences:
     - role: Senior Data Engineer
-      time: 05/2021 - Present
-      company: Wayfair Deutschland Ltd. & Co. KG, Berlin
+      time: 04/2020 - Present
+      company: Insurance Startup, Berlin
       details: |
-          - Implemented real time data processing pipeline using Google Dataflow(Apache Beam).
-          - Implemented event driven architecture to process the Google Analytics data.
-          - Developed data dictionary using Google Data Catalog.
-    - role: Senior Data Engineer
-      time: 04/2020 - 04/2021
-      company: wefox Group (wefox & ONE), Berlin
-      details: |
+          - Implemented the event driven ETL pipeline for processing the Google Analytics data.
+          - Migrated the legacy data infrastructure to the GCP utilising the GCP's serverless and managed services.
           - Migrated the VBA based ETL tool to Airflow.
           - Extract and Load setup using Xplenty.
           - Data migration and CDC using AWS DMS.
@@ -79,9 +74,6 @@ experiences:
           - Effective documentation about the applications, tools and utilities developed.
           - Creating high level design documents & source to target data mapping sheets.
           - POC on different ETL tools and technologies.
-          - Defining coding standards/best practices and guidelines.
-          - Following the best practices of different ETL tools and databases.
-          - Updating JIRA boards.
     - role: Data Automation Engineer
       time: 11/2017 - 03/2020
       company: Spotcap Global, Berlin
@@ -208,27 +200,23 @@ skills:
     toolsets:
       - title: Languages & Frameworks
         link: "#"
-        details: Python, Scala, Java, SQL, Fast API, Play 2, Spring- boot, TestNG, ScalaTest, Shell/Bash script
+        details: Python, Java, SQL, Fast API, Spring-boot, TestNG, ScalaTest, Shell/Bash script
 
       - title: ELT & Data-Pipeline Tools
         link: "#"
-        details: Airflow, DBT, Xplenty, AWS DMS, Spark(poc/theoretical exp)
+        details: Apache Airflow, Apache Beam/Dataflow, Spark, DBT, Xplenty, AWS DMS
+
+      - title: Cloud Services
+        link: "#"
+        details: GCP(Dataflow, Composer, BigQuery, Cloud Functions, Pub/Sub), AWS(DMS, Redshift, RDS, Glue, Lambda)
 
       - title: Databases
         link: "#"
-        details: PostgreSQL, Oracle, MySQL, Elasticsearch, MongoDB, Redis, Memcache, RocksDB
+        details: BigQuery, PostgreSQL, Oracle, MySQL, Elasticsearch, MongoDB, Redis, Memcache, RocksDB
 
       - title: Technologies & Tools
         link: "#"
         details: Terraform, Kafka, Elasticsearch, Docker, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark
-        
-      - title: Platforms
-        link: "#"
-        details: AWS cloud, GCP, Linux (SUSE, Cent OS, Ubuntu), Mac OSX, Windows
-
-      - title: Cloud Services
-        link: "#"
-        details: AWS (EC2, S3, Lambda, DMS, API Gateway, Redshift, RDS, CloudWatch, DocumentDB), GCP (Firestore, VM Instance, cloud scheduler, cloud pub/sub, cloud functions)
 
       - title: Reporting Tools
         link: "#"

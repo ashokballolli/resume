@@ -63,6 +63,7 @@ experiences:
           - Implemented the event driven ETL pipeline for processing the Google Analytics data using Apache Beam and GCP managed services.
           - Implemented the scalable realtime ETL pipelines using Apache Flink for processing Kafka events.
           - POC on different ETL tools and technologies.
+          - Developed data dictionary using Google Data Catalog
           - Implemented CI/CD plugins to automate deployment of many GCP managed services.
           - Implemented Quality Checks framework for the pipelines running on Airflow.
           - Infrastructure provisioning thorough Terraform.

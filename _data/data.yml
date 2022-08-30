@@ -56,10 +56,22 @@ education:
       time: 2005 - 2009
 experiences:
     - role: Senior Data Engineer
-      time: 04/2020 - Present
-      company: Insurance Startup, Berlin
+      time: 05/2021 - Present
+      company: Wayfair, Berlin
       details: |
-          - Implemented the event driven ETL pipeline for processing the Google Analytics data.
+          - Collaborating with stakeholders across the business to understand their data requirements.
+          - Implemented the event driven ETL pipeline for processing the Google Analytics data using Apache Beam and GCP managed services.
+          - Implemented the scalable realtime ETL pipelines using Apache Flink for processing Kafka events.
+          - POC on different ETL tools and technologies.
+          - Implemented CI/CD plugins to automate deployment of many GCP managed services.
+          - Implemented Quality Checks framework for the pipelines running on Airflow.
+          - Infrastructure provisioning thorough Terraform.
+          - Participating in the design discussions, planning, estimation and retro meetings.
+
+    - role: Senior Data Engineer
+      time: 04/2020 - 04/2021
+      company: Wefox, Berlin
+      details: |
           - Migrated the legacy data infrastructure to the GCP utilising the GCP's serverless and managed services.
           - Migrated the VBA based ETL tool to Airflow.
           - Extract and Load setup using Xplenty.
@@ -69,7 +81,7 @@ experiences:
           - Built API’s using FastAPI.
           - Setting up of CI/CD pipeline using Github actions and Bash Scripts.
           - On-boarding the new MGA's with the necessary changes in the DWH and ETL.
-          - Implemented real time alerting for the data pipeline and services.
+          - Implemented realtime alerting for the data pipeline and services.
           - Developed the data dictionary.
           - Effective documentation about the applications, tools and utilities developed.
           - Creating high level design documents & source to target data mapping sheets.
@@ -80,32 +92,25 @@ experiences:
       details: |
           - Built data-pipeline in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, which was then consumed by the data science team.
           - Gather and process raw data at scale (including writing scripts, web scraping, calling APIs, write SQL queries, writing applications)
-          - Built automation framework for Spotcap's backend API's from scratch.
           - Built API’s using Scala Play and Spring boot which acts as simulator for user journey and it’s actively used by the product, QA and data science team.
           - Developed a utility by implementing API’s and integrating with the Flock for pro- actively debugging the credit decision on user’s loan application.
           - Setting up of CI/CD pipeline (Jenkins integration) for the automation test suite.
           - Setting up the mocked data, which was critical during client demos and internal testing, and acted as POC for the mocked data services.
+          - Built automation framework for Spotcap's backend API's from scratch.
           - Built load testing framework using Locust and Python.
-          - Implemented real time alarming for the automation test failures to all the stake holders.
+          - Implemented real time alarming for the quality check failures to all the stake holders.
           - Effective documentation about the applications, tools and utilities developed.
-          - Mentoring the junior automation engineers and data analysts.
-    - role: Software Development Engineer in Test - III
+    - role: Tech Lead
       time: 09/2015 - 11/2017
       company: OLA, Bangalore
       details: |
-        - Setting up the performance environment, adding/modifying the performance script, performing the performance test and sharing the matrix/observations/results with the tech team and other stake holders.
-        - Co-ordinating with the developers and Dev-Ops during the production deployment, performing the post deployment QA verification and monitoring the applications using New relic, Kibana, Prometheus and application logs.
-        - Building utilities by implementing API's using spring-boot and writing shell scripts to minimize the QA-effort and making automation job easy.
+        - Worked on the application which served as a single source of truth for position/status of all cabs at any given point of time.
+        - Design and architecture of tracking service.
         - Updating the Chef Cookbooks and Recipes and deploying the build on AWS-Cloud Environment.
-        - Performing the code review of the automated test scripts.
-        - Monitoring the daily run report of the automation suite and debugging if any failures in the report.
-        - Developed many utilities to minimize the environment setup, for production sanity test and for debugging the issues in staging.
-        - Application Maintenance and troubleshooting
-        - Participating in the Sprint planning meetings and providing the QA estimation.
-        - Automating the 'S0' test cases before the Dev-build to staging.
-        - Perform functional testing, integration testing, system testing, regression testing.
+        - Developed utilities to minimize the environment setup, for production sanity test and for debugging the issues in staging.
+        - Application maintenance and troubleshooting.
         - Giving demos to the product team and Knowledge sharing sessions to the team.
-        - Create and maintain media wiki page for the project with the latest updates.
+        - Mentoring the junior team members.
     - role: Senior Software Engineer
       time: 11/2012 - 09/2015
       company: Altisource Labs, Bangalore
@@ -124,11 +129,10 @@ experiences:
         - Monitoring and scheduling Daemons.
         - Automation of test cases using Selenium Web driver, Sahi, Robot Framework and Shell script.
         - Setup Jasper Reports server
-        - DB Testing – Executing liquibase scripts, Writing queries, Stored Procedures, debugging the stored procedures.
-        - UNIX: Writing Shell script to automate payment files, Monitoring logs, Deployment, Server health monitoring.
-        - Give Demos, Knowledge transfer to the team.
-        - Create and maintain media wiki page for the project with the latest updates.
-    - role: Software Test Engineer
+        - Wrote liquibase scripts, queries, stored procedures.
+        - Wrote Shell scripts to automate payment files, deployment, server health monitoring.
+        - Gave Demos, Knowledge sharing sessions to the team.
+    - role: Software Engineer
       time: 09/2009 - 10/2012
       company: ZTE R&D Center, Bangalore
       details: |
@@ -200,11 +204,11 @@ skills:
     toolsets:
       - title: Languages & Frameworks
         link: "#"
-        details: Python, Java, SQL, Fast API, Spring-boot, TestNG, ScalaTest, Shell/Bash script
+        details: Python, Java, SQL, Fast API, Spring-boot, TestNG, ScalaTest, Shell/Bash script, Scala(Intermediate-level)
 
       - title: ELT & Data-Pipeline Tools
         link: "#"
-        details: Apache Airflow, Apache Beam/Dataflow, Spark, DBT, Xplenty, AWS DMS
+        details: Apache Airflow, Apache Beam/Dataflow, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Spark(Intermediate-level)
 
       - title: Cloud Services
         link: "#"
@@ -212,7 +216,7 @@ skills:
 
       - title: Databases
         link: "#"
-        details: BigQuery, PostgreSQL, Oracle, MySQL, Elasticsearch, MongoDB, Redis, Memcache, RocksDB
+        details: PostgreSQL, Oracle, MySQL, Elasticsearch, MongoDB, Redis, Memcache, RocksDB, Sybase
 
       - title: Technologies & Tools
         link: "#"

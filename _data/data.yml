@@ -14,8 +14,8 @@ sidebar:
     # Sidebar links
     # email: ballolliashok@gmail.com
     email: ashokb@engineer.com
-    phone: +49-15166269341
-    website: www.ashokb.ml #do not add http://
+    phone: +49-1605719293
+    website: www.DataTe.ch #do not add http://
     linkedin: ashokballolli
     github: ashokballolli
     telegram: # add your nickname without '@' sign
@@ -221,19 +221,19 @@ skills:
 
       - title: Technologies & Tools
         link: "#"
-        details: Terraform, Kafka, Elasticsearch, Docker, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark
+        details: Terraform, Kafka, Elasticsearch, Docker, Kubernetes, New Relic, Solr, RabbitMQ, Prometheus, Grafana, Graylog, Postman, Wireshark
 
       - title: Reporting Tools
         link: "#"
         details: PowerBI and Redash (Beginner to intermediate level of exp)
 
-      - title: Automation Tools
+      - title: CI/CD & Automation Tools
         link: "#"
-        details: Terraform, Github Actions, Jenkins, Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
+        details: Terraform, Github Actions, Jenkins, buildkite, Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
 
       - title: Load Testing Tools
         link: "#"
-        details: Locust and Wrk2
+        details: Locust, Gatling and Wrk2
 
       - title: Version Management Tools & PMS
         link: "#"

@@ -209,11 +209,11 @@ skills:
 
       - title: ELT & Data-Pipeline Tools
         link: "#"
-        details: Apache Airflow, Apache Beam/Dataflow, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Spark(Intermediate-level)
+        details: Apache Airflow, Apache Beam/Dataflow, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Spark(Intermediate-level), Kafka
 
       - title: Cloud Services
         link: "#"
-        details: GCP(Dataflow, Composer, BigQuery, Cloud Functions, Pub/Sub), AWS(DMS, Redshift, RDS, Glue, Lambda)
+        details: GCP(Dataflow, Composer, BigQuery, Cloud Functions, Pub/Sub, DataCatalog, GCS, Vision AI), AWS(DMS, Redshift, RDS, Glue, Lambda, S3, Rekognition)
 
       - title: Databases
         link: "#"

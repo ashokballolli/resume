@@ -36,20 +36,11 @@ sidebar:
       - idiom: Kannada
         level: Native
 
-    interests:
-      - item: Reading Books
-        link:
-
-      - item: Trekking
-        link:
-
-      - item: Cooking
-        link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Data Engineer with thorough hands on experience in all levels of software development life cycle. I am a hybrid software developer, data engineer, automation engineer. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
+      Experienced Data Engineer with thorough hands on experience in all levels of software development life cycle. I am a hybrid Data Engineer, Software Developer, Automation Engineer. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
 education:
     - degree: B.E in Computer Science
       university: VTU(PDA College Of Engineering, Gulbarga)
@@ -57,7 +48,7 @@ education:
 experiences:
     - role: Senior Data Engineer
       time: 05/2021 - Present
-      company: Wayfair, Berlin
+      company: Wayfair, Berlin/Germany
       details: |
           - Collaborating with stakeholders across the business to understand their data requirements.
           - Implemented the event driven ETL pipeline for processing the Google Analytics data using Apache Beam and GCP managed services.
@@ -71,7 +62,7 @@ experiences:
 
     - role: Senior Data Engineer
       time: 04/2020 - 04/2021
-      company: Wefox, Berlin
+      company: Wefox, Berlin/Germany
       details: |
           - Migrated the legacy data infrastructure to the GCP utilising the GCP's serverless and managed services.
           - Migrated the VBA based ETL tool to Airflow.
@@ -89,7 +80,7 @@ experiences:
           - POC on different ETL tools and technologies.
     - role: Data Automation Engineer
       time: 11/2017 - 03/2020
-      company: Spotcap Global, Berlin
+      company: Spotcap Global, Berlin/Germany
       details: |
           - Built data-pipeline in Scala & Python for processing structured and unstructured data from multiple data sources like API’s, Audit Tables, S3, which was then consumed by the data science team.
           - Gather and process raw data at scale (including writing scripts, web scraping, calling APIs, write SQL queries, writing applications)
@@ -103,7 +94,7 @@ experiences:
           - Effective documentation about the applications, tools and utilities developed.
     - role: Tech Lead
       time: 09/2015 - 11/2017
-      company: OLA, Bangalore
+      company: OLA, Bangalore/India
       details: |
         - Worked on the application which served as a single source of truth for position/status of all cabs at any given point of time.
         - Design and architecture of tracking service.
@@ -114,7 +105,7 @@ experiences:
         - Mentoring the junior team members.
     - role: Senior Software Engineer
       time: 11/2012 - 09/2015
-      company: Altisource Labs, Bangalore
+      company: Altisource Labs, Bangalore/India
       details: |
         - Migration of existing code bases to AWS cloud.
         - Migration of SQL based searches to Apache SOLR based search.
@@ -135,7 +126,7 @@ experiences:
         - Gave Demos, Knowledge sharing sessions to the team.
     - role: Software Engineer
       time: 09/2009 - 10/2012
-      company: ZTE R&D Center, Bangalore
+      company: ZTE R&D Center, Kuala lumpur/Malaysia, Bangalore/India
       details: |
         - Preparing the system test cases, Test List and System Test Report.
         - Preparation of test environment and deployment.
@@ -209,7 +200,7 @@ skills:
 
       - title: ELT & Data-Pipeline Tools
         link: "#"
-        details: Apache Airflow, Apache Beam/Dataflow, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Spark(Intermediate-level), Kafka
+        details: Apache Airflow, Apache Beam, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Spark, Kafka
 
       - title: Cloud Services
         link: "#"
@@ -229,7 +220,7 @@ skills:
 
       - title: CI/CD & Automation Tools
         link: "#"
-        details: Terraform, Github Actions, Jenkins, buildkite, Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
+        details: Terraform, Github Actions, Jenkins, Buildkite, Selenium-Webdriver, RestAssured (API), Jacoco for code coverage
 
       - title: Load Testing Tools
         link: "#"

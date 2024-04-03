@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Ashok Ballolli
-    tagline: Senior Data Engineer
+    tagline: Senior Data & MLOps Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -40,12 +40,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Data Engineer with thorough hands on experience in all levels of software development life cycle. I am a hybrid Data Engineer, Software Developer, Automation Engineer. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
+      Experienced Data/DataOps/MLOps Engineer with thorough hands on experience in all levels of software development life cycle. I am a hybrid Data Engineer, Software Developer, Automation Engineer. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
 education:
     - degree: B.E in Computer Science
       university: VTU(PDA College Of Engineering, Gulbarga)
       time: 2005 - 2009
 experiences:
+    - role: Senior Data & MLOps Engineer
+      time: 01/2024 - Present
+      company: Wayfair, Berlin/Germany
+      details: |
+          - Lead the productionization efforts for machine learning models using GCP Vertex Batch and Realtime services, ensuring seamless deployment and scalability in a production environment.
+          - Collaborate closely with Data Scientists to provide curated datasets for model training, leveraging GCP's managed services for data preprocessing and post-processing tasks.
+          - Serve as Subject Matter Expert (SME) for infrastructure architecture, implementing robust solutions for deployment, orchestration, and monitoring of ML pipelines and systems.
+          - Establish and maintain robust monitoring and alerting systems, ensuring the reliability and performance of machine learning models and associated infrastructure.
+
     - role: Senior Data Engineer
       time: 05/2021 - Present
       company: Wayfair, Berlin/Germany

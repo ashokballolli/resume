@@ -213,7 +213,7 @@ skills:
 
       - title: Cloud Services
         link: "#"
-        details: GCP(Dataflow, Composer, BigQuery, Cloud Functions, Pub/Sub, DataCatalog, GCS, Vision AI), AWS(DMS, Redshift, RDS, Glue, Lambda, S3, Rekognition)
+        details: GCP(Dataflow, Composer, BigQuery, Vertex AI, Cloud Functions, Pub/Sub, DataCatalog, GCS, Cloud SQL, Cloud Run, Data Catalog), AWS(DMS, Redshift, RDS, Glue, Lambda, S3, Rekognition)
 
       - title: Databases
         link: "#"

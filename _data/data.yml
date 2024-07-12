@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     # email: ballolliashok@gmail.com
     email: ashokb@engineer.com
-    phone: +49-1605719293
+    phone: +49-15510783376
     website: DataTe.ch #do not add http://
     linkedin: ashokballolli
     github: ashokballolli
@@ -47,27 +47,22 @@ education:
       time: 2005 - 2009
 experiences:
     - role: Senior Data & MLOps Engineer
-      time: 01/2024 - Present
-      company: Wayfair, Berlin/Germany
-      details: |
-          - Lead the productionization efforts for machine learning models using GCP Vertex Batch and Realtime services, ensuring seamless deployment and scalability in a production environment.
-          - Collaborate closely with Data Scientists to provide curated datasets for model training, leveraging GCP's managed services for data preprocessing and post-processing tasks.
-          - Serve as Subject Matter Expert (SME) for infrastructure architecture, implementing robust solutions for deployment, orchestration, and monitoring of ML pipelines and systems.
-          - Establish and maintain robust monitoring and alerting systems, ensuring the reliability and performance of machine learning models and associated infrastructure.
-
-    - role: Senior Data Engineer
       time: 05/2021 - Present
       company: Wayfair, Berlin/Germany
       details: |
           - Collaborating with stakeholders across the business to understand their data requirements.
-          - Implemented the event driven ETL pipeline for processing the Google Analytics data using Apache Beam and GCP managed services.
+          - Implemented the event driven ETL pipeline for processing the Google Analytics data using Apache Beam, Cloud Functions and other GCP managed services.
           - Implemented the scalable realtime ETL pipelines using Apache Flink for processing Kafka events.
-          - POC on different ETL tools and technologies.
           - Developed data dictionary using Google Data Catalog
-          - Implemented CI/CD plugins to automate deployment of many GCP managed services.
           - Implemented Quality Checks framework for the pipelines running on Airflow.
+          - POC on different ETL tools and technologies.
+          - Implemented CI/CD plugin to automate deployment to GCP managed services.
           - Infrastructure provisioning thorough Terraform.
-          - Participating in the design discussions, planning, estimation and retro meetings.
+          - Lead the productionization efforts for machine learning models using GCP Vertex Batch and Realtime services, ensuring seamless deployment and scalability in a production environment.
+          - Collaborate closely with Data Scientists to provide curated datasets for model training, leveraging GCP's managed services for data preprocessing and post-processing tasks.
+          - Serve as Subject Matter Expert (SME) for infrastructure architecture, implementing robust solutions for deployment, orchestration, and monitoring of ML pipelines and systems.
+          - Establish and maintain robust monitoring and alerting systems, ensuring the reliability and performance of machine learning models and associated infrastructure.
+          
 
     - role: Senior Data Engineer
       time: 04/2020 - 04/2021
@@ -199,17 +194,30 @@ publications:
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
 
+certifications:
+      title: Certifications
+      list:
+        - name: Professional Data Engineer
+          start: 2023
+          end: 2025
+          organization: Google Cloud
+
+        - name: Professional Machine Learning Engineer
+          start: 2024
+          end: 2026
+          organization: Google Cloud
+
 skills:
     title: Skills
 
     toolsets:
       - title: Languages & Frameworks
         link: "#"
-        details: Python, Java, SQL, Fast API, Spring-boot, TestNG, ScalaTest, Shell/Bash script, Scala(Intermediate-level)
+        details: Python, Java, SQL, Fast API, Spring-boot, Shell/Bash script, Scala(Intermediate-level)
 
       - title: ELT & Data-Pipeline Tools
         link: "#"
-        details: Apache Airflow, Apache Beam, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Spark, Kafka
+        details: Apache Airflow, Apache Beam, Apache Flink, DBT, Xplenty, AWS DMS, Great expectations, Apache Spark, Kafka
 
       - title: Cloud Services
         link: "#"

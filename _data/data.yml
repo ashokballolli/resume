@@ -12,9 +12,9 @@ sidebar:
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    # email: ballolliashok@gmail.com
-    email: ashokb@engineer.com
-    phone: +49-15510783376
+    email: ballolliashok@gmail.com
+    #email: ashokb@engineer.com
+    phone: +91-9739929985
     website: DataTe.ch #do not add http://
     linkedin: ashokballolli
     github: ashokballolli
@@ -30,11 +30,11 @@ sidebar:
       - idiom: English
         level: Professional
 
-      - idiom: Hindi
-        level: Native
+      #- idiom: Hindi
+      #  level: Native
 
-      - idiom: Kannada
-        level: Native
+      #- idiom: Kannada
+      #  level: Native
 
 
 career-profile:
@@ -43,11 +43,16 @@ career-profile:
       Experienced Data/DataOps/MLOps Engineer with thorough hands on experience in all levels of software development life cycle. I am a hybrid Data Engineer, Software Developer, Automation Engineer. Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Willing to take ownership of core components.
 education:
     - degree: B.E in Computer Science
-      university: VTU(PDA College Of Engineering, Gulbarga)
+      university: VTU
       time: 2005 - 2009
 experiences:
+    - role: Software Engineer III
+      time: 10/2024 - Present
+      company: Wayfair, Bangalore/India
+      details: 
+
     - role: Senior Data & MLOps Engineer
-      time: 05/2021 - Present
+      time: 05/2021 - 09/2024
       company: Wayfair, Berlin/Germany
       details: |
           - Collaborating with stakeholders across the business to understand their data requirements.
@@ -82,7 +87,7 @@ experiences:
           - Effective documentation about the applications, tools and utilities developed.
           - Creating high level design documents & source to target data mapping sheets.
           - POC on different ETL tools and technologies.
-    - role: Data Automation Engineer
+    - role: Data Engineer
       time: 11/2017 - 03/2020
       company: Spotcap Global, Berlin/Germany
       details: |
@@ -241,7 +246,7 @@ skills:
 
       - title: Load Testing Tools
         link: "#"
-        details: Locust, Gatling and Wrk2
+        details: Locust, Vegeta, Gatling and Wrk2
 
       - title: Version Management Tools & PMS
         link: "#"
